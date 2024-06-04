@@ -34,9 +34,9 @@ p{
 /* HEADER */
 .contenedor-heaer{
     /*height: 12vh;*/
-    /*position: fixed;
-    width: 100%;*/
-    background-color: rgba(159, 54, 71, 1); /* rgba(245, 61, 61, 0.5)*/
+    position: fixed;
+    width: 100%;
+    background-color: rgba(159, 54, 71, 0); /* rgba(245, 61, 61, 0.5)*/
 }
 
 @media screen and (max-width: 768px) {
