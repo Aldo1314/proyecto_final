@@ -1,0 +1,143 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(245, 61, 61, 0.5); /* Header transparente */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:inherit;
+    padding: 2px 20px;
+    z-index: 1000;
+    min-height: 150px;
+}
+
+header nav img {
+    max-width: 200px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 80px; /* Para que no se superponga con el header */
+    text-align: center;
+}
+
+main section {
+    padding: 20px;
+}
+
+#inicio h1, #inicio h2 {
+    color: #333;
+}
+
+#inicio a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#inicio a:hover {
+    background-color: #f6121d;
+}
+
+section#tendencia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+section#tendencia div {
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+}
+
+section#tendencia img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+section#tendencia h3 {
+    color: #333;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin: 5px 0;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer a i {
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    header nav img {
+        max-width: 120px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section#tendencia {
+        flex-direction: column;
+        align-items: center;
+    }
+} 
