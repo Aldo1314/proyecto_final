@@ -66,6 +66,12 @@ p{
         color:white;  
         
     }
+
+    .buscador:focus{
+        border: 2px solid rgb(39, 7, 78);
+        outline: none;
+        box-shadow: 0 0 8px rgba(253, 250, 250, 0)  ;
+    }
     .lista-header{
         display: flex;
         list-style-type: none;
